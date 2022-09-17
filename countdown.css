@@ -20,6 +20,10 @@
     width: 150px !important;
     box-shadow: 2px 0px 10px 3px rgb(92, 92, 92) inset;;
     margin-top: 2% !important;
+    border-bottom-right-radius: 30% !important;
+    border-bottom-left-radius:4% !important;
+    border-top-right-radius: 4% !important;
+    border-top-left-radius:30% !important;
 }
 body{
     background-image: url(https://c4.wallpaperflare.com/wallpaper/861/409/209/time-background-watch-wallpaper-preview.jpg);

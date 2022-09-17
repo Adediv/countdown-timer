@@ -1,3 +1,4 @@
+const song = new Audio('fireboy.mp3');
 const countdown = () =>{
     let countedSec = mySecs.value;
     let countedHour = myHour.value;
@@ -11,6 +12,7 @@ const countdown = () =>{
         myMin.value = "00"
         myHour.value = "00"
         clearTimeout(myTimeout)
+        song.play()
     }
     if(countedSec < 0 && myMin.value > 0){
         mySecs.value = 60;

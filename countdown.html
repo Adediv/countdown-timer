@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="countdown.css">
 </head>
 <body>
-    <div class="text-center col-sm-11 col-md-9 col-lg-6">
+    <div class="text-center col-sm-11 col-md-9 col-lg-6 bg-light bg-opacity-25">
         <h3 class="mb-4 "><em>COUNTDOWN TIMER</em> </h3>
             <div class="text-center">
-                <input  class="col text-center   border-0 fs-1" type="text" placeholder="00" id="myHour">:
-                <input  class="col text-center  border-0 fs-1 " type="text" placeholder="00" id="myMin">:
-                <input  class="col text-center  border-0  fs-1" type="text" placeholder="00" id="mySecs"><br>
+                <input  class="col text-center   border-0 fs-3" type="text" placeholder="HOURS" id="myHour">:
+                <input  class="col text-center  border-0 fs-3 " type="text" placeholder="MINUTES" id="myMin">:
+                <input  class="col text-center  border-0  fs-3" type="text" placeholder="SECONDS" id="mySecs"><br>
             </div>
-            <button class="btn  border-0  fw-bold mt-4 rounded-pill fs-4 fw-bold" onclick="countdown()"> START</button>
-            <button class="btn border-0  fw-bold mt-4 rounded-pill fs-4 fw-bold" onclick="stop()"> STOP</button>
-            <button class="btn border-0  fw-bold mt-4 rounded-pill fs-4 fw-bold" onclick="reset()"> RESET</button>
+            <button class="btn btn-dark border-0  fw-bold mt-4 rounded-pill fs-4 mx-1" onclick="countdown()"> START</button>
+            <button class="btn btn-dark border-0  fw-bold mt-4 rounded-pill fs-4 mx-1" onclick="stop()"> STOP</button>
+            <button class="btn  btn-dark border-0  fw-bold mt-4 rounded-pill fs-4 mx-1" onclick="reset()"> RESET</button>
        </div>
  <script src="countdown.js"></script>   
 </body>

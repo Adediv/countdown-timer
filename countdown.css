@@ -1,13 +1,24 @@
 
 .col-sm-11{
-    box-shadow: 2px 4px 18px 13px rgb(236, 235, 235) ;
+    box-shadow: 2px 4px 20px 7px black ;
     margin: auto;
     margin-top: 10%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+
+    
+
+    
 
 }
 .col{
-    height: 80px !important;
+    height: 88px !important;
     width: 150px !important;
-    box-shadow: 2px 0px 5px 5px rgb(221, 220, 220) inset;;
+    box-shadow: 2px 0px 10px 3px rgb(92, 92, 92) inset;;
     margin-top: 2% !important;
+}
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/861/409/209/time-background-watch-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

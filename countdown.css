@@ -4,7 +4,11 @@
     margin: auto;
     margin-top: 10%;
     padding-top: 6%;
-    padding-bottom: 5%;
+    padding-bottom: 13%;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius:40% ;
+    border-top-right-radius: 7%;
+    border-top-left-radius:7% ;
 
     
 

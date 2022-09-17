@@ -3,10 +3,11 @@
     box-shadow: 2px 4px 18px 13px rgb(236, 235, 235) ;
     margin: auto;
     margin-top: 10%;
-    
+
 }
 .col{
     height: 80px !important;
     width: 150px !important;
     box-shadow: 2px 0px 5px 5px rgb(221, 220, 220) inset;;
+    margin-top: 2% !important;
 }
